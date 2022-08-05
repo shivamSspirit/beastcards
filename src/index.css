@@ -1,13 +1,16 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  @layer components {
+    .my-bg-image {
+      background-image: url("/public/img/Vector.svg");
+      background-repeat: no-repeat;
+    }
+  
+    .brand-logo {
+      background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, #333333 100%);
+      backdrop-filter: blur(100px);
+    }
+  }
