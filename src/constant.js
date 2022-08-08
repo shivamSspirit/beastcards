@@ -2,7 +2,7 @@
 export const cardData = [
     {
         id: 1,
-        logoshadow:"bitcoin",
+        logoshadow: "bitcoin",
         logoImg: '/img/Bitcoin.png',
         chainName: 'Bitcoin (BTC)',
         realtimePrice: '31812.50',
@@ -26,7 +26,7 @@ export const cardData = [
 
     {
         id: 2,
-        logoshadow:"sol",
+        logoshadow: "sol",
         logoImg: '/img/solana.png',
         chainName: 'Solana (SOL)',
         realtimePrice: '32.83',
@@ -50,7 +50,7 @@ export const cardData = [
 
     {
         id: 3,
-        logoshadow:"eth",
+        logoshadow: "eth",
         logoImg: '/img/eth.png',
         chainName: 'Ethereum (ETH)',
         realtimePrice: '1466.65',
@@ -74,7 +74,7 @@ export const cardData = [
 
     {
         id: 4,
-        logoshadow:"bnb",
+        logoshadow: "bnb",
         logoImg: '/img/bnb.png',
         chainName: 'Binance USD (BUSD)',
         realtimePrice: '1.00',
@@ -98,7 +98,7 @@ export const cardData = [
 
     {
         id: 5,
-        logoshadow:"shiba",
+        logoshadow: "shiba",
         logoImg: '/img/shiba.png',
         chainName: 'Shiba Inu (SHIB)',
         realtimePrice: '0.00000098',

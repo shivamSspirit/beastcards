@@ -19,7 +19,7 @@ function Card() {
     const [nftData, setNftData] = useState<NftData[]>(cardData)
     return (
         <div className="w-full h-full">
-            <div className='flex w-full flex-wrap gap-9 justify-center'>
+            <div className='flex w-full h-full flex-wrap gap-9 justify-center'>
                 {nftData && nftData.map((item: NftData, idx: number) => (
                     <div key={`nft${idx}`} className='container bg-transparent  w-[292px] h-[440px]'>
                         <div className='block w-full h-full'>
