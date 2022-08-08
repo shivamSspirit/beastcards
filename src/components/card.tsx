@@ -31,19 +31,19 @@ function Card() {
                                         </span>
                                     </div>
                                     <div className='mt-16 flex flex-col gap-1'>
-                                        <h3 className="fontss font-bold text-[14px] text-brandBlue">{item?.chainName}</h3>
+                                        <h3 className="fontss font-bold text-brandBlue">{item?.chainName}</h3>
                                         <span className='w-[85%] m-auto p-3 flex flex-row justify-center items-center gap-3 bg-blue rounded-full'>
                                             <span className="fontss text-[16px]">{`$ ${item?.realtimePrice}`}</span><span className="fontss font-[600] text-[12px] text-green">{`${item?.daypersent}`}</span>
                                         </span>
-                                        <h4 className="fontss text-titles font-bold text-[14px]">price</h4>
+                                        <h4 className="fontss text-titles font-bold">price</h4>
                                         <span className='w-[85%] m-auto p-3 bg-blue rounded-full fontss text-[16px]'>{`$ ${item?.price}`}</span>
-                                        <h2 className="fontss text-titles font-bold text-[14px]">TVF</h2>
+                                        <h2 className="fontss text-titles font-bold">TVL</h2>
                                         <span className='w-2/3 m-auto p-2  bg-blue rounded-full flex flex-row gap-3 items-center justify-center'>
                                             {item?.popularPair?.map((itemss: { name: string; brandIcon: string }, idx: number) => (
                                                 <img key={`icon${idx}`} className='w-8 h-8 rounded-full' src={itemss?.brandIcon} alt='' />
                                             ))}
                                         </span>
-                                        <span className="fontss text-titles font-bold text-[14px]">popular pairs</span>
+                                        <span className="fontss text-titles font-bold">popular pairs</span>
                                     </div>
                                 </div>
                             </div>
