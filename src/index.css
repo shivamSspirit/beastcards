@@ -1,16 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-  @tailwind base;
-  @tailwind components;
-  @tailwind utilities;
-  
-  @layer components {
-    .my-bg-image {
-      background-image: url("/public/img/Vector.svg");
-      background-repeat: no-repeat;
-    }
-  
-    .brand-logo {
-      background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, #333333 100%);
-      backdrop-filter: blur(100px);
-    }
+@layer components {
+  .fontss {
+    font-family: 'Tomorrow';
+    font-style: normal;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    color: #ECF0FF;
   }
+
+  .my-bg-image {
+    background-image: url("/public/img/Vector.svg");
+    background-repeat: no-repeat;
+  }
+
+  .brand-logo {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, #14172B 100%);
+    backdrop-filter: blur(100px);
+  }
+
+  /* linear gradient */
+
+  .bitcoin {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    backdrop-filter: blur(100px);
+  }
+
+  .sol {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(220, 31, 255, 0.1) 100%);
+    backdrop-filter: blur(100px);
+  }
+
+  .eth {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(237, 240, 244, 0.1) 100%);
+    backdrop-filter: blur(100px);
+  }
+
+  .bnb {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(234, 179, 0, 0.06) 100%);
+    backdrop-filter: blur(100px);
+  }
+
+  .shiba {
+    background: linear-gradient(180deg, rgba(98, 106, 136, 0.1) 0%, rgba(228, 45, 4, 0.1) 100%);
+    backdrop-filter: blur(100px);
+  }
+}
