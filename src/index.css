@@ -40,8 +40,7 @@
     background: #2E3149;
     position: relative;
     border: .6px solid #555;
-    border-top-left-radius: 14px;
-    border-top-right-radius: 14px;
+    border-radius: 14px;
   }
 
   .maincir {
