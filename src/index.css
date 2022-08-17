@@ -3,6 +3,61 @@
 @tailwind utilities;
 
 @layer components {
+
+  .map {
+    position: relative;
+  }
+
+  .first-cir {
+    width: 19px;
+    height: 31px;
+    position: absolute;
+    background: #2E3149;
+    z-index: 3;
+    margin-left: 4.5rem;
+    border-top-right-radius: 13px;
+    border-right: .6px solid #555;
+    border-top: .6px solid #555;
+    top: -.5px;
+  }
+
+  .sec-cir {
+    width: 20px;
+    height: 32px;
+    position: absolute;
+    background: #2E3149;
+    z-index: 2;
+    margin-left: 12.4rem;
+    border-top-left-radius: 14px;
+    border-left: .6px solid #555;
+    border-top: .6px solid #555;
+    top: -.5px;
+  }
+
+  .hello {
+    width: 290px;
+    height: 350px;
+    background: #2E3149;
+    position: relative;
+    border: .6px solid #555;
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+  }
+
+  .maincir {
+    width: 120px;
+    height: 110px;
+    background-color: #0e142d;
+    position: absolute;
+    top: -2.9rem;
+    left: 85px;
+    border-radius: 50%;
+    z-index: 1;
+    border-bottom: 1px solid #555;
+    border-top-left-radius: 14px
+  }
+
+
   .fontss {
     font-family: 'Tomorrow';
     font-style: normal;
